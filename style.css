@@ -98,7 +98,7 @@ footer {
   width: 800px;
   display: grid;
   grid-template-columns: 200px 200px 200px 200px;
-  grid-template-rows: 200px 200px;
+  grid-template-rows: 200px 200px 200px;
   text-align: center;
   font-family: 'Sumana', serif;
   font-size: 18px;
