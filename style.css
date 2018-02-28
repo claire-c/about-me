@@ -6,8 +6,7 @@ body {
   background-color: #d5d5d5;
 }
 
-
-  header {
+header {
   font-family: 'Lato', sans-serif;
   font-size: 50px;
   font-weight: bold;
@@ -26,17 +25,26 @@ nav {
   background-color: #d5d5d5;
 }
 
+main {
+  font-family: 'Sumana', serif;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 100%;
+}
+
 h1 {
   font-family: 'Lato', sans-serif;
   font-size: 40px;
   font-style: normal;
+  line-height: normal;
 }
 
-h2 {
+h3 {
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   font-weight: normal;
   font-style: normal;
+  line-height: 110%;
 }
 
 a:link {
@@ -70,28 +78,8 @@ footer {
   grid-template-columns: 50% 50%;
   grid-gap: 50px 55px;
   text-align: left;
-  font-family: 'Sumana', serif;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 100%;
   margin: auto;
   background-color: #d5d5d5;
-}
-
-.homegrid h2 {
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 110%;
-}
-
-.homegrid h3 {
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 110%;
 }
 
 .skillsgrid {
@@ -100,20 +88,8 @@ footer {
   grid-template-columns: 200px 200px 200px 200px;
   grid-template-rows: 200px 200px 200px;
   text-align: center;
-  font-family: 'Sumana', serif;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 100%;
   margin: auto;
   grid-gap: 10px 15px;
-}
-
-.skillsgrid h3 {
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 110%;
 }
 
 .testgrid {
@@ -122,16 +98,6 @@ footer {
   grid-template-columns: 400px 400px;
   grid-template-rows: 300px 300px 300px 300px 300px;
   text-align: center;
-  font-family: 'Sumana', serif;
-  font-size: 18px;
   font-style: italic;
-  line-height: 100%;
   margin: auto;
-}
-
-.testgrid h1 {
-  font-family: 'Lato', sans-serif;
-  font-size: 40px;
-  font-style: normal;
-  line-height: normal;
 }
