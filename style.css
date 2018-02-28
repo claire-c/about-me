@@ -66,10 +66,9 @@ footer {
 .navgrid {
   display: grid;
   width: 600px;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 33% 33% 34%;
   text-align: center;
   margin: auto;
-  background-color: #d5d5d5;
 }
 
 .homegrid {
@@ -79,7 +78,6 @@ footer {
   grid-gap: 50px 55px;
   text-align: left;
   margin: auto;
-  background-color: #d5d5d5;
 }
 
 .skillsgrid {
